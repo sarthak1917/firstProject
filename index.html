@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Dynamic table</title>
+	<script src="jquery.min.js"></script>
+	<script src="custom.js"></script>
+	<style>
+		table{
+			width : 80%;
+			border-collapse : collapse;
+		}
+		table tr td,table tr th{
+			border : 1px solid #b3b3b3;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div>
+			<label>Name</label>
+		</div>
+		<div><input type="text" id="name"></div>
+		<div>
+			<label>Age</label>
+		</div>
+		<div><input type="text" id="age"></div>
+		<div>
+			<label>Designation</label>
+		</div>
+		<div><input type="text" id="designation"></div>
+		<div>
+			<label>Salary</label>
+		</div>
+		<div><input type="text" id="salary"></div>
+		<button class="add">Add</button>
+	</div>
+
+	<table style="width:80%;">
+		<thead>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Designation</th>
+			<th>Salary</th>
+		</thead>
+		<tbody>
+			
+		</tbody>
+	</table>
+
+	<h3>
+		To Assign value to Form
+	</h3>
+
+	<button id="assign">Assign</button>
+	<div>
+		<b>Name :</b><input type="text" id="new_name" />
+	</div>
+	<div>
+		<b>Age :</b><input type="text" id="new_age" />
+	</div>
+	<div>
+		<b>Designation :</b><input type="text" id="new_desig" />
+	</div>
+	<div>
+		<b>Salary :</b><input type="text" id="new_sal" />
+	</div>
+
+</body>
+</html>
